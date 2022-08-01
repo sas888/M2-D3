@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: black;
+  height: 15vh;
+  color: white;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+article {
+  width: 60%;
+  height: 70vh;
+  padding: 10px;
+}
+
+aside {
+  background-color: #320388;
+  width: 20%;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  background-color: #c22177;
+  width: 20%;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  height: 15vh;
+  color: white;
+  padding: 10px;
+}
